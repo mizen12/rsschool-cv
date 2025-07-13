@@ -1,1 +1,173 @@
-
+html 
+  
+  .body {
+    background-color: #00FFFF;
+    width: 100vw;
+    font-family: "Lato";
+    font-style: normal;
+    font-size: 20px;
+    color: #4dda85;
+    display: flex;
+    align-items: center;
+  }
+  .content {
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #dd26e0;
+  }
+  
+  .header {
+    margin: 0 auto;
+    top: 0;
+    background-color: #b12525;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  
+  .header-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .header-item {
+    list-style-type: none;
+    margin-right: 60px;
+  
+    font-weight: bold;
+  }
+  
+  .header-item:last-child {
+    margin-right: 0;
+  }
+  
+  .header-link {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-link:hover,
+  .header-link:focus,
+  .header-link:active {
+    opacity: 0, 75;
+  }
+  .header-link:visited {
+    color: #2e1309;
+  }
+  .header-link:link {
+    color: #bbdc2d;
+  }
+  .header-item:first-child {
+    margin-left: 0;
+  }
+  
+  .header-burger {
+    display: none;
+    width: 32px;
+    height: 18px;
+    position: relative;
+  }
+  
+  .burger-line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #311351;
+    position: absolute;
+    left: 0;
+  }
+  
+  .burger-line-first {
+    top: 0;
+  }
+  
+  .burger-line-second {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .burger-line-third {
+    bottom: 2px;
+  }
+  
+  .section {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 20px;
+  }
+  
+  .section-name {
+    text-align: right;
+  }
+  
+  .section-photo-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  
+  .grey-section {
+    background-color: #19b6e1;
+  }
+  
+  .section-name-about-me {
+    text-decoration: none;
+  }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  h2 {
+    color: #81106d;
+    padding: 0 20px;
+    margin-top: 0px;
+    text-decoration: underline;
+  }
+  
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  
+  .year-footer {
+    padding-left: 100px;
+  }
+  p {
+    padding: 0 38px;
+  }
+  
+  .list-style-type-none {
+    list-style-type: none;
+  }
+  
+  .contacts {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .contact-block {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact {
+    margin-left: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
